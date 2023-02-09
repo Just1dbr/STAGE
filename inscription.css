@@ -1,0 +1,51 @@
+.email {
+    margin: 10px;
+    flex-direction: column;
+    display: flex;
+}
+.motdepasse {
+    margin: 10px;
+    flex-direction: column;
+    display: flex;
+}
+.animalprefere {
+    margin: 10px;
+    flex-direction: column;
+    display: flex;
+}
+.checkbox {
+    margin: 10px;
+}
+.inscription {
+    width: 60%;
+    margin: auto;
+}
+.formulaire { 
+width: 49%;
+}
+.image {
+    width: 49%;
+    object-fit: cover;
+}
+.imageetform {
+    display: flex;
+}
+input[type="submit"] { 
+    border-radius: 30px;
+    color: white;
+    background-color: red;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+.inscription-block {
+    border:solid black 2px;
+    border-radius: 8px;
+    padding: 32px;
+    margin-top: 16px;
+}
+
+.success {
+    display: none;
+}

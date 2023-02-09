@@ -1,0 +1,56 @@
+.imagechat {
+    width: 500px;
+    border-radius: 8px;
+}
+.maurice {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 8px;
+    margin-left: 16px;
+    text-align: center;
+    
+}
+.age {
+    font-size:16px;
+    font-weight: 100;
+    color: grey;
+    margin: 8px;
+    margin-left: 16px;
+    text-align: center;
+}
+.race {
+    font-size: 16px;
+    font-weight: 100;
+    color: gray;
+    margin: 8px;
+    margin-left: 16px;
+    text-align: center;
+    
+}
+.flex {
+    display: flex;
+}
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    margin:auto;
+}
+.container {
+    padding: 16px;
+}
+button {
+border-radius: 30px;
+color: white;
+background-color: red;
+padding: 12px;
+padding-left: 24px;
+padding-right: 24px;
+border: 2px solid red;
+font-weight: 600;
+transition: all 200ms;
+}
+button:hover {
+    color:red;
+    background-color: white;
+}

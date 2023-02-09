@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="inscription.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="commun.css">
+</head>
+
+<body>
+  <div class="header">
+    <img class="logo"
+      src="https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2Fvar.2Ffemmeactuelle.2Fstorage.2Fimages.2Fanimaux.2Fanimaux-pratique.2F7-qualites-du-chat-dont-on-peut-s-inspirer-pour-le-travail-46610.2F14838226-1-fre-FR.2F7-qualites-du-chat-dont-on-peut-s-inspirer-pour-le-travail.2Ejpg/750x562/quality/80/crop-from/center/cr/wqkgUGl4YWJheSAvIEZlbW1lIEFjdHVlbGxl/7-qualites-du-chat-dont-on-peut-s-inspirer-pour-le-travail.jpeg">
+    <h1>maison des chats</h1>
+    <a class="inscription-boutton" href="inscription.html">
+      s'inscrire
+    </a>
+    <a class="inscription-boutton" href="connexion.html">
+      se connecter
+    </a>
+  </div>
+  <div class="inscription">
+    <div class="inscription-block">
+      <p class="title">
+        Rejoignez notre superbe communauté adoratrice d'animaux!!!
+      </p>
+      <div class="imageetform">
+        <form name="formulaire" class="formulaire" method="post">
+          <div class="email">
+            <label for="name">Email: </label>
+            <input type="email" required name="email" id="email" />
+          </div>
+          <div class="motdepasse">
+            <label for="name">Mot de passe: </label>
+            <input type="password" required name="password" id="password">
+          </div>
+          <div class="motdepasse">
+            <label for="name"> confirmer le Mot de passe: </label>
+            <input type="password" required name="password2" id="password2">
+          </div>
+          <div class="animalprefere">
+            <label for="name">Animal préféré: </label>
+            <select name="pets" id="pet-select">
+              <option value="">--Please choose an option--</option>
+              <option value="dog">Dog</option>
+              <option value="cat">Cat</option>
+              <option value="hamster">Hamster</option>
+              <option value="parrot">Parrot</option>
+              <option value="spider">Spider</option>
+              <option value="goldfish">Goldfish</option>
+            </select>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="j'adore les animaux" name="j'adore les animaux" checked>
+            <label for="j'adore les animaux">j'adore les animaux</label>
+
+          </div>
+          <input type="submit" value="Je m'inscris">
+
+        </form>
+        <img class="image"
+          src="https://tractive.com/blog/wp-content/uploads/2022/04/chat-tigre-patrouillant-son-territoire.jpg">
+      </div>
+      <div class="success" />
+    </div>
+  </div>
+  <script src="inscription.js" type="text/javascript"></script>
+</body>
+
+</html>
