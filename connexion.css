@@ -6,12 +6,7 @@
     margin: auto;
     margin-top: 16px;
 }
-.email {
-    margin: 10px;
-    flex-direction: column;
-    display: flex;
-}
-.motdepasse {
+.form-input {
     margin: 10px;
     flex-direction: column;
     display: flex;
