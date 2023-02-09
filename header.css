@@ -16,13 +16,12 @@
 .header h1 {
     margin: 0;
     margin-left: 8px;
+    margin-right: auto;
 }
-.header .inscription-boutton:first-of-type {
-    margin-left: auto;
-    margin-right: 8px;
-}
+
 .header .inscription-boutton {
     color: white;
+    margin-left: 8px;
     background-color: orangered;
     border-radius: 8px;
     padding: 8px;
