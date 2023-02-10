@@ -19,7 +19,7 @@
     margin-right: auto;
 }
 
-.header .inscription-boutton {
+.inscription-boutton {
     color: white;
     margin-left: 8px;
     background-color: orangered;
@@ -28,7 +28,7 @@
     transition: all 200ms;
     border: 2px solid orangered
 }
-.header .inscription-boutton:hover {
+.inscription-boutton:hover {
     color: orangered;
     background-color: white;
 }
